@@ -45,7 +45,7 @@ p, li, blockquote, label {
   font-size: 16px;
   letter-spacing: 0;
   line-height: 25px;
-  color: #808080;
+  color: #000;
   margin-bottom: 0;
 }
 
@@ -1163,6 +1163,7 @@ button:focus,
   padding: 100px 0 170px;
   position: relative;
   overflow: hidden;
+  background-image: url('images/fotopegawai.png');
 }
 
 .gradient-banner::before {
@@ -2203,6 +2204,17 @@ hr {
   .google-map #map_canvas {
     height: 350px;
   }
+}
+
+
+.berita {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */
